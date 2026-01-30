@@ -1,0 +1,9 @@
+import random
+
+def letter_generator():
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+
+    while True:
+        letter = random.choice(alphabet)
+
+        yield letter
